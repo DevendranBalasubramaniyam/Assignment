@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 20px;
+}
+body{
+    background-image: url(https://bootstrapmade.com/demo/templates/Squadfree/assets/img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width:100%
+}
+nav{
+    background-color: aliceblue;
+    border: 2px  dotted rgba(61, 188, 213, 0.429);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+nav span{
+    margin-left: 60px;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.head li{
+    margin-right: 15px;
+}
+.head li:last-child{
+    margin-right: 60px;
+}
+.homepage{
+    font-size: larger;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homepage h1,h2{
+    color: white;
+}
+.homepage button{
+    padding: 12px;
+    cursor: pointer;
+    width: 90px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.page2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://bootstrapmade.com/demo/templates/Squadfree/assets/img/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.page2 h1{
+    color: black;
+    font-weight:600 ;
+}
+.firstdiv{
+    width: 400px;
+    padding: 0px;
+}
+.firstdiv a{
+    border-radius: 25px;
+    background-color: aqua;
+    padding: 12px;
+
+}
+div{
+    padding: 50px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.about{
+    background-color: whitesmoke;
+}
+.table2 div{
+    align-content: center ;
+    height: 150px;
+    padding: 12px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(38, 38, 40, 0.88);
+}
+.table2 h5,h2{
+    color: #333333e1;
+}
+.table2 h2:hover,.table2 h5:hover,.table2 div:hover{
+    color: white;
+    background-color: rgb(17, 101, 197);
+}
+

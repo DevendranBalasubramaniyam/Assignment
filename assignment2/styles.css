@@ -1,0 +1,122 @@
+
+* {
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+}
+body {
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        background-color: #fff;
+        color: #333;
+        margin: 0;
+        padding: 0;
+}
+   
+
+h1, h3, button {
+margin: 10px;
+}
+
+.home {
+display: flex;
+justify-content: center;
+align-items: left;
+flex-direction: column;
+width: 100%;
+height: 700px;
+background-color: #5e42a6;
+color: white;
+}
+
+h1 {
+padding: 20px;
+font-size: 43px;
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+}
+
+h3,  a {
+line-height: 1.5;
+padding: 10px;
+font-size: 30px;
+font-weight: 400;
+font-family: Arial, Helvetica, sans-serif;
+color: rgba(255, 255, 255, 0.506);
+}
+
+a {
+text-decoration: underline dotted;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+button {
+width: 90px;
+color: white;
+cursor: pointer;
+height: 30px;
+border-radius: 15px;
+background-color: #5e42a6;
+border: 1px solid white;
+}
+
+button:hover {
+color: #5e42a6;
+background-color: white;
+border: 1px solid #5e42a6;
+}
+
+.who {
+background-color: #5e42a6;
+}
+
+.what {
+height: fit-content;
+margin:0;
+background-color: hotpink;
+}
+
+.contact {
+background-color: blueviolet;
+}
+.sidebar {
+        letter-spacing: 2px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 350px;
+        height: 100%;
+        background-color: #9e08cc; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        justify-content: center;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .sidebar a {
+        color: rgb(169, 156, 156); 
+        padding: 10px;
+        font-size: medium;
+        text-decoration: underline hotpink dotted;
+        text-align: right;
+        width: 100%;
+        transition: background-color 0.3s;
+    }
+
+    .sidebar a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+
+
+    body {
+        padding-left: 350px;
+    }

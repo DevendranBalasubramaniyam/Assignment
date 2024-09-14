@@ -1,0 +1,156 @@
+*{
+    padding: 10px;
+    margin: 10px;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #141414;
+    padding: 20px 0;
+    box-shadow: 0 4px 2px -2px gray;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 100px auto 50px auto; 
+    padding: 0 20px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #FFDD44;
+}
+
+.hero-text h1 span {
+    color: #FF6600;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin: 20px 0 0 0;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 60px ;
+    max-width: 1200px;
+    margin-bottom:1px solid #333 ;
+}
+
+.about {
+    border-radius: 10px; 
+    background-color: #2a2a2a;
+    transition: transform 0.3s ease;
+}
+.about:hover,.services:hover, .products:hover, .contact:hover{
+    transform: scale(1.09);
+    border-radius: 20px; 
+}
+.services, .products, .contact {
+    background-color: #3a3a3a;
+    transition: transform 0.3s ease;
+    border-radius: 10px; 
+}
+
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FFDD44;
+}
+
+
+.project-photo img{
+    width: 75%;
+    height: 100%;
+}
+.certification-photo , .project-display {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.project-display p{
+    width: 75%;
+} 
+.certification-photo img {
+    width: 380px;
+}
+
+.project-display img {
+    width: 25%;
+    margin: 10px;
+}
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #141414;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -4px 2px -2px gray;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+}

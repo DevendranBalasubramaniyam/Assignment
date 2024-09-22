@@ -6,7 +6,7 @@ Installation
 To run any of the assignments locally, follow these steps:
 
 Clone the repository:
-git clone https://github.com/Devendranbalasubramaniyam/Assignment
+git clone https://github.com/Devendranbalasubramaniyam/Miniprojects
 
 Navigate to the specific assignment directory:
 cd Assignment 
@@ -22,4 +22,4 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Contact
-For any inquiries, please contact me at [your-email@example.com].
+For any inquiries, please contact me at www.deva095@gmail.com.
